@@ -91,26 +91,31 @@ You may also test individual modules directly:
 
 - **Sentence importance scoring:**
 
+```
 bash
 python sis.py
-
+```
 
 - **Word importance analysis:**
 
+```
 bash
 python wis.py
-
+```
 
 - **Word substitution and synonym generation:**
 
+```
 bash
 python syn_model.py
-
+```
 
 - **Metric evaluation preview:**
 
+```
 bash
 python metrics.py
+```
 
 
 ---
