@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="WISA.png" alt="WISA Attack Overview" width="600"/>
+</p>
+
+
+
 # ⚔️ WISA: Weighted Importance Sentence Attack
 
 This repository provides an implementation of **WISA**, an adversarial attack framework designed for text summarization models such as Pegasus, BART, and T5. The core idea is to identify and perturb important input regions—sentences and words—based on ROUGE-driven scoring and guided synonym substitution using large language models (LLMs) like Llama3.
