@@ -27,15 +27,17 @@ This repository provides an implementation of **WISA**, an adversarial attack fr
 
 1. Clone the repository and install dependencies:
 
-bash
-pip install -r requirements.txt
+```
 
+pip install -r requirements.txt
+```
 
 2. Download NLTK sentence tokenizer:
 
-bash
-python -m nltk.downloader punkt
+```
 
+python -m nltk.downloader punkt
+```
 
 ---
 
@@ -50,22 +52,26 @@ Follow platform-specific instructions to install the Ollama runtime.
 
 ### Step 2: Start Ollama server and pull model
 
-bash
+```
+
 ollama serve          # or ./ollama serve
 ollama pull llama3    # download Llama3 locally
+```
 
 
 ### Step 3: Run Llama3 model
 
-bash
-ollama run llama3
+```
 
+ollama run llama3
+```
 
 Alternatively, run from Python:
 
-bash
-python llms.py
+```
 
+python llms.py
+```
 
 ---
 
@@ -73,9 +79,10 @@ python llms.py
 
 To launch the attack:
 
-bash
-python attack.py
+```
 
+python attack.py
+```
 
 - Make sure to edit attack.py to adjust hyperparameters such as:
   - top_k sentences
@@ -92,28 +99,28 @@ You may also test individual modules directly:
 - **Sentence importance scoring:**
 
 ```
-bash
+
 python sis.py
 ```
 
 - **Word importance analysis:**
 
 ```
-bash
+
 python wis.py
 ```
 
 - **Word substitution and synonym generation:**
 
 ```
-bash
+
 python syn_model.py
 ```
 
 - **Metric evaluation preview:**
 
 ```
-bash
+
 python metrics.py
 ```
 
